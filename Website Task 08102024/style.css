@@ -1,0 +1,233 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: inherit;
+}
+
+body {
+  box-sizing: border-box;
+  margin: 1rem 2rem;
+  color: #1D1D1D;
+  font-family: "Montserrat", sans-serif;
+  font-optical-sizing: auto;
+}
+#nav-container{
+    height: 6rem;
+    width: 100%;
+    background-color: #ECECEC;
+    border-radius: 2.5rem;
+}
+
+#nav-list {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    list-style-type: none;
+    height: 100%;
+}
+
+.nav-item {
+    text-decoration: none;
+    color: #333;
+    font-weight: bold;
+    padding: 1.25rem 5rem;
+    border-radius: 2rem;
+    background-color: #FFF;
+    transition: background-color 0.3s ease;
+}
+.nav-item:hover {
+    background-color: #D1FF09;
+}
+.contact{
+    background-color: #D1FF09;
+}
+.title{
+    text-align: center;
+    font-size: 18.5em;
+}
+.hero-section{
+    height: 40rem;
+    border-radius: 4rem;
+    background-color: #1b191a;
+    display: flex;
+    justify-content: space-between;
+    padding: 0rem 0rem 0rem 10rem;
+}
+.detail{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    color: white;
+}
+
+h3{
+    font-size: 6em;
+}
+.detail p{
+    font-size: 1.4em;
+    line-height: 1.5;
+    margin: 1.5rem 0rem;
+}
+
+.btn-area{
+    display: flex;
+    gap: 20px;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.customer-rating h4{
+    font-size: 3.5em;
+    margin-left: 8rem;
+    color: #FFF;
+}
+
+.customer-rating{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 2rem;
+}
+
+.explore{
+    background-color: #D1FF09;
+    padding: 1rem 3rem;
+    border-radius: 1.5rem;
+    font-weight: 600;
+    font-size: 1em;
+}
+.arrow{
+    background-color: #D1FF09;
+    padding: 0.75rem;
+    border-radius: 50%;
+}
+.image-stack {
+    position: relative;
+    margin-left: 2rem;
+}
+.image-stack img{
+    width: 4rem;
+    height: 4rem;
+    border-radius: 2rem;
+}
+
+.image1 {
+    border-radius: 50%;
+}
+
+.image2 {
+    position: absolute;
+    top: 0rem;
+    left: 3rem;
+}
+
+.image3 {
+    position: absolute;
+    top: 0;
+    left: 6rem;
+}
+
+.social-icons{
+    background-image: url(./images/grey-pattern.png); 
+    display: flex; 
+    background-repeat: round;
+    justify-content: flex-end;
+    gap: 0.5rem;
+    padding-right: 0.5rem;
+}
+
+.watch-icons {
+    background-image: url(./images/black-pattern.png);
+    display: flex;
+    background-repeat: repeat-x;
+    justify-content: space-evenly;
+    padding-right: 0.5rem;
+    margin-top: 2rem;
+}
+
+.feature-item{
+    border: 4px solid #e4e4e6;
+    margin-top: 1rem;
+    border-radius: 2rem;
+    padding: 2rem;
+}
+.feature-title{
+    font-size: 5em;
+    color: #1a1a1a;
+}
+.more-watches{
+    margin-top: 5rem;
+    text-align: center;
+}
+.watch-showcase{
+    background-color: #e8e8e8; 
+    width: 40rem; 
+    height: 35rem; 
+    border-radius: 4rem;
+}
+.list-spec{
+    border: 2px solid #e4e4e6; 
+    border-radius: 4rem; 
+    padding: 1rem 4rem; 
+    font-weight: 800; 
+    font-size: 5em;
+    color: #1a1a1a;
+}
+.subscribe{
+    background-color: #1b191a; 
+    display: flex; 
+    flex-direction: column; 
+    border-radius: 4rem;
+    padding: 2rem;
+    justify-content: center;
+    align-items: center;
+    text-align: center; 
+    color: #fff;
+    height: 50rem;
+}
+
+button{
+    font-family: inherit;
+}
+
+input[type="text"] {
+    font-family: inherit;
+    background-color: #232323; 
+    height: 4rem; 
+    width: 25rem; 
+    border: transparent; 
+    border-radius: 1rem 0rem 0rem 1rem; 
+    padding: 1rem;
+}
+.join-now{
+    font-family: inherit;
+    background-color: #d1ff09; 
+    height: 4rem; 
+    width: 10rem; 
+    border-color: transparent; 
+    border-radius: 0rem 1rem 1rem 0rem; 
+    margin-left: -4px;
+}
+
+input[type="text"]::placeholder {
+    font-family: "Montserrat", sans-serif;
+    color: #999;
+    opacity: 1;
+}
+.footer{
+    margin: 4rem 0rem 2rem 0rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.full-logo{
+    display: flex;
+    align-items: center;
+}
+.menu-items>li>a{
+    text-decoration: none; 
+    color: #1b191a; 
+    font-weight: 700;
+}
