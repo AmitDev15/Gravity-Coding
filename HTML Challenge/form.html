@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HTML Challenge | Form</title>
+    <style>
+        legend{
+            border: 1px solid black;
+            padding: 8px;
+        }
+        fieldset{
+            width: 12%;
+        }
+    </style>
+</head>
+<body>
+    <h1>Create Form Challenge : </h1>
+    <h4>Please share your personal <br> details here :</h4>
+    <fieldset>
+        <legend>Personal Information</legend>
+        <div>
+            <label for="fname">First Name</label>
+            <br>
+            <input type="text" id="fname" name="fname" minlength="3" maxlength="15" required>
+        </div>
+        <br>
+        <div>
+            <label for="lname">Last Name</label>
+            <br>
+            <input type="text" id="lname" name="lname" minlength="3" maxlength="15">
+        </div>
+        <br>
+        <div>
+            <label for="birthday">Birthday</label>
+            <br>
+            <input type="date" id="birthday" name="birthday" title="mm/dd/yyyy">
+        </div>
+    </fieldset>
+    <p>Can you tell us a little more?</p>
+    <fieldset>
+        <legend>Further Information</legend>
+        <div>
+            <label for="fcolor">Favourite Color</label>
+            &nbsp;
+            <input type="color" id="fcolor" name="fcolor">
+        </div>
+        <br>
+        <div>
+            <label for="fpet">What's your favourite pet?</label>
+            <br>
+            <input type="text" id="fpet" name="fpet" minlength="3" maxlength="15">
+        </div>
+        <br>
+        <div>
+            <label for="like">Do you like :</label>
+            <br>
+            <input type="radio" name="likes" value="mountains">Mountains
+            <input type="radio" name="likes" value="beaches">Beaches
+        </div>
+    </fieldset>
+    <br>
+    <div>
+        <button type="submit">Submit</button>
+    </div>
+</body>
+</html>
